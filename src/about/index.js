@@ -3,7 +3,7 @@
 */
 
 import React from 'react'
-import { Row, Col, Content, Box, Button } from 'adminlte-2-react'
+import { Row, Col, Content, Box } from 'adminlte-2-react'
 
 class About extends React.Component {
   render () {
