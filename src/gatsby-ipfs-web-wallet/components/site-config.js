@@ -4,8 +4,8 @@
 */
 
 const config = {
-  title: 'Wallet Demo',
-  titleShort: 'Demo',
+  title: 'FullStack.cash',
+  titleShort: 'PSF',
   balanceText: 'BCH Balance',
   balanceIcon: 'fab-bitcoin'
 }
