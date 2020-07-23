@@ -21,7 +21,7 @@ class About extends React.Component {
               closable
               collapsable
             >
-              This is the official web wallet provided by FullStack.cash.
+              This is the official web wallet provided by FullStack.cash. More data soon.
             </Box>
           </Col>
         </Row>
