@@ -31,7 +31,11 @@ class About extends React.Component {
                 general public is invited to use it, but be aware that the app
                 is in-progress, the code is in-flux, and many things will change
                 or break. Please solicit feedback on this app in our{' '}
-                <a href="https://t.me/permissionless_software" target="_blank">
+                <a
+                  href="https://t.me/permissionless_software"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Telegram Channel
                 </a>
               </p>
