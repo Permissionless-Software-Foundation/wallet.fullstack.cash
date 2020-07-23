@@ -9,15 +9,15 @@ class About extends React.Component {
   render () {
     return (
       <Content
-        title="About"
-        subTitle=""
-        browserTitle="About | wallet.fullstack.cash"
+        title='About'
+        subTitle=''
+        browserTitle='About | wallet.fullstack.cash'
       >
         <Row>
           <Col xs={12}>
             <Box
-              title="wallet.fullstack.cash"
-              type="primary"
+              title='wallet.fullstack.cash'
+              type='primary'
               closable
               collapsable
             >
@@ -32,9 +32,9 @@ class About extends React.Component {
                 is in-progress, the code is in-flux, and many things will change
                 or break. Please solicit feedback on this app in our{' '}
                 <a
-                  href="https://t.me/permissionless_software"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://t.me/permissionless_software'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Telegram Channel
                 </a>
