@@ -9,6 +9,7 @@
 import React from 'react'
 import { Sidebar } from 'adminlte-2-react'
 import About from '../../about'
+import PostOfficeConfiguration from '../../../plugins/bch-wallet-plugin-postoffice/src/postOfficeConfiguration.js'
 
 const { Item } = Sidebar
 
@@ -17,6 +18,11 @@ const MenuComponents = [
     key: 'About',
     component: <About />,
     menuItem: <Item icon='fas-cog' key='About' text='About' />
+  },
+  {
+    key: 'Post Office ',
+    component: <PostOfficeConfiguration />,
+    menuItem: <Item icon='fas-message' key='PostOffice' text='Post Office' />
   }
 ]
 

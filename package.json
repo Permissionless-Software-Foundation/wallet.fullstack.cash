@@ -19,6 +19,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
+    "bch-wallet-plugin-postoffice": "^1.0.0",
     "gatsby": "^2.23.7",
     "gatsby-ipfs-web-wallet": "^1.5.1"
   },
