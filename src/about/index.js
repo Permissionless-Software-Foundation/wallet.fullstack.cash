@@ -22,7 +22,12 @@ class About extends React.Component {
               collapsable
             >
               <p>
-                This is the official web wallet provided by FullStack.cash. You
+                This is the official web wallet provided by{' '}
+                <a
+                  href='https://fullstack.cash'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >FullStack.cash</a>. You
                 can access this web wallet over Tor and IPFS. See the links in
                 the footer at the bottom of the page.
               </p>
@@ -38,6 +43,36 @@ class About extends React.Component {
                 >
                   Telegram Channel
                 </a>
+              </p>
+              <p>
+                The code for this web wallet can be found{' '}
+                <a
+                  href="https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >here</a>. It's based on the{' '}
+                <a
+                  href="https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >gatsby-ipfs-web-wallet Gatsby Theme</a>, and the{' '}
+                <a
+                  href="https://github.com/Permissionless-Software-Foundation/minimal-slp-wallet-web"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >minimal-slp-wallet-web</a> wallet engine.
+              </p>
+              <p>
+                This wallet has full support for Bitcoin Cash and SLP tokens, including
+                nonfungible tokens (NFT). When a transaction is made with this wallet,
+                an output of 2000 satoshis is added. This is a convenience fee that goes
+                towards burning PSF tokens. It helps support the developers who work on
+                this web wallet and other software sponsored by the
+                <a
+                  href="https://psfoundation.cash"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >Permissionless Software Foundation</a>.
               </p>
             </Box>
           </Col>
