@@ -67,7 +67,7 @@ class About extends React.Component {
                 nonfungible tokens (NFT). When a transaction is made with this wallet,
                 an output of 2000 satoshis is added. This is a convenience fee that goes
                 towards burning PSF tokens. It helps support the developers who work on
-                this web wallet and other software sponsored by the
+                this web wallet and other software sponsored by the{' '}
                 <a
                   href="https://psfoundation.cash"
                   target='_blank'
