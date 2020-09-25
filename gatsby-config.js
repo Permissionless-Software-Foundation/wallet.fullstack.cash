@@ -14,6 +14,7 @@ module.exports = {
       options: {
         modules: ['bch-wallet-plugin-postoffice']
       }
-    }
+    },
+    'gatsby-plugin-bch-sweep'
   ]
 }

@@ -21,7 +21,8 @@
   "dependencies": {
     "bch-wallet-plugin-postoffice": "Permissionless-Software-Foundation/bch-wallet-plugin-postoffice#ct-unstable",
     "gatsby": "^2.23.7",
-    "gatsby-ipfs-web-wallet": "^1.9.14",
+    "gatsby-ipfs-web-wallet": "^1.9.18",
+    "gatsby-plugin-bch-sweep": "^1.2.2",
     "gatsby-plugin-compile-es6-packages": "^2.1.0"
   },
   "repository": {
