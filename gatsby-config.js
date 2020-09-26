@@ -15,6 +15,7 @@ module.exports = {
         modules: ['bch-wallet-plugin-postoffice']
       }
     },
+    // require.resolve('../gatsby-plugin-bch-sweep')
     'gatsby-plugin-bch-sweep'
   ]
 }
