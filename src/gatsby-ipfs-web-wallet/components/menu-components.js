@@ -10,6 +10,7 @@ import React from 'react'
 import { Sidebar } from 'adminlte-2-react'
 import About from '../../about'
 import Sweep from 'gatsby-plugin-bch-sweep/src/components/sweep'
+import Split from 'gatsby-plugin-bch-split/src/components/split'
 
 const { Item } = Sidebar
 
@@ -24,6 +25,12 @@ const MenuComponents = [
     key: 'About',
     component: <About />,
     menuItem: <Item icon='fas-cog' key='About' text='About' />
+  },
+  {
+    key: 'Split',
+    // component: <><p>test</p></>,
+    component: <Split key='Split' />,
+    menuItem: <Item icon='fas-cog' key='Split' text='Split' />
   }
 ]
 
