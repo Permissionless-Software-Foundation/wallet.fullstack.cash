@@ -19,10 +19,10 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "bch-wallet-plugin-postoffice": "Permissionless-Software-Foundation/bch-wallet-plugin-postoffice#ct-unstable",
+    "bch-wallet-plugin-postoffice": "1.0.8",
     "gatsby": "^2.23.7",
-    "gatsby-ipfs-web-wallet": "^1.9.23",
-    "gatsby-plugin-bch-sweep": "^1.2.3",
+    "gatsby-ipfs-web-wallet": "^1.11.0",
+    "gatsby-plugin-bch-sweep": "^1.2.5",
     "gatsby-plugin-compile-es6-packages": "^2.1.0"
   },
   "repository": {
