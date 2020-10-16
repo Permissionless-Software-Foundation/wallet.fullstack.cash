@@ -8,13 +8,13 @@ module.exports = {
   /* Your site config here */
   plugins: [
     'gatsby-ipfs-web-wallet',
-    'bch-wallet-plugin-postoffice',
-    {
-      resolve: 'gatsby-plugin-compile-es6-packages',
-      options: {
-        modules: ['bch-wallet-plugin-postoffice']
-      }
-    },
+    // 'bch-wallet-plugin-postoffice',
+    // {
+    //   resolve: 'gatsby-plugin-compile-es6-packages',
+    //   options: {
+    //     modules: ['bch-wallet-plugin-postoffice']
+    //   }
+    // },
     // require.resolve('../gatsby-plugin-bch-sweep')
     'gatsby-plugin-bch-sweep'
   ]
