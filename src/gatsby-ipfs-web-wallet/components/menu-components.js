@@ -15,7 +15,7 @@ import Configure from 'gatsby-ipfs-web-wallet/src/components/admin-lte/configure
 import SendReceive from 'gatsby-ipfs-web-wallet/src/components/admin-lte/send-receive'
 
 import About from '../../about'
-import Sweep from 'gatsby-plugin-bch-sweep/src/components/sweep'
+import Sweep from 'gatsby-plugin-bch-sweep'
 
 const { Item } = Sidebar
 
