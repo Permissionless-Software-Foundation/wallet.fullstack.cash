@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Permissionless-Software-Foundation/bch-wallet-starter"
+    "url": "https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash"
   },
   "bugs": {
-    "url": "https://github.com/Permissionless-Software-Foundation/bch-wallet-starter/issues"
+    "url": "https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash/issues"
   },
   "devDependencies": {
     "husky": "^4.2.5",
-    "semantic-release": "^17.1.1",
+    "semantic-release": "Permissionless-Software-Foundation/gatsby-ipfs-web-wallet",
     "standard": "^14.3.4"
   },
   "release": {
