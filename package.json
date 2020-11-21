@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "husky": "^4.2.5",
-    "semantic-release": "Permissionless-Software-Foundation/gatsby-ipfs-web-wallet",
+    "semantic-release": "^17.1.1",
     "standard": "^14.3.4"
   },
   "release": {
