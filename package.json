@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "gatsby": "^2.24.80",
-    "gatsby-ipfs-web-wallet": "Permissionless-Software-Foundation/gatsby-ipfs-web-wallet",
+    "gatsby-ipfs-web-wallet": "^1.18.0",
     "gatsby-plugin-bch-sweep": "^1.5.1"
   },
   "repository": {
