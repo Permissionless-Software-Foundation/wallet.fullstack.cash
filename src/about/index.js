@@ -60,10 +60,10 @@ class About extends React.Component {
                 >gatsby-ipfs-web-wallet Gatsby Theme
                 </a>, and the{' '}
                 <a
-                  href='https://github.com/Permissionless-Software-Foundation/minimal-slp-wallet-web'
+                  href='https://github.com/Permissionless-Software-Foundation/minimal-slp-wallet'
                   target='_blank'
                   rel='noopener noreferrer'
-                >minimal-slp-wallet-web
+                >minimal-slp-wallet
                 </a> wallet engine.
               </p>
               <p>
