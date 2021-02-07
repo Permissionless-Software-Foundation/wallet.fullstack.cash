@@ -3,7 +3,7 @@ This is the front end [GatsbyJS](https://www.gatsbyjs.org) based website that ru
 
 ## Android App
 This wallet app has been compiled into an Android app that can be side-loaded onto a phone. It's not available in the Play store. Sideloading the APK file is the only way to install this wallet as a native app.
-- [wallet.fullstack.cash.apk](./wallet.fullstack.cash.apk]
+- [wallet.fullstack.cash.apk](./wallet.fullstack.cash.apk)
 
 ## License
 [MIT](./LICENSE.md)
