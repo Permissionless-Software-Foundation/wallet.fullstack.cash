@@ -25,7 +25,7 @@
     "@capacitor/cli": "^2.4.6",
     "@capacitor/core": "^2.4.6",
     "gatsby": "^2.31.1",
-    "gatsby-ipfs-web-wallet": "^1.19.2",
+    "gatsby-ipfs-web-wallet": "^1.19.3",
     "gatsby-plugin-bch-sweep": "^1.5.1"
   },
   "repository": {
@@ -36,9 +36,9 @@
     "url": "https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash/issues"
   },
   "devDependencies": {
-    "husky": "^4.2.5",
+    "husky": "^4.3.8",
     "semantic-release": "^17.3.7",
-    "standard": "^14.3.4"
+    "standard": "^16.0.3"
   },
   "release": {
     "publish": [
