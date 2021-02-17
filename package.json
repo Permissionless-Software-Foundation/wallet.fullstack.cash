@@ -11,7 +11,7 @@
   "scripts": {
     "build": "gatsby build",
     "build:ipfs": "gatsby build --prefix-paths",
-    "android:setup": "npx cap add android; npx cap update android; npx cap update android; npx cap copy android",
+    "android:setup": "npx cap add android; npx cap update android; npx cap update android; npx cap copy android; capacitor-resources -p android",
     "android:open": "npx cap open android",
     "develop": "gatsby develop",
     "lint": "standard --env mocha --fix",
@@ -25,7 +25,7 @@
     "@capacitor/cli": "^2.4.6",
     "@capacitor/core": "^2.4.6",
     "gatsby": "^2.31.1",
-    "gatsby-ipfs-web-wallet": "^1.19.3",
+    "gatsby-ipfs-web-wallet": "^1.19.4",
     "gatsby-plugin-bch-sweep": "^1.5.1"
   },
   "repository": {
@@ -36,6 +36,7 @@
     "url": "https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash/issues"
   },
   "devDependencies": {
+    "capacitor-resources": "^2.0.5",
     "husky": "^4.3.8",
     "semantic-release": "^17.3.7",
     "standard": "^16.0.3"
