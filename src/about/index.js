@@ -33,19 +33,30 @@ class About extends React.Component {
                 . You can access this web wallet over Tor and IPFS. See the
                 links in the footer at the bottom of the page.
               </p>
+
               <p>
-                This wallet app is currently in an 'Open Alpha' test. The
-                general public is invited to use it, but be aware that the app
-                is in-progress, the code is in-flux, and many things will change
-                or break. Please solicit feedback on this app in our{' '}
+                This wallet app can be used as a normal wallet, but it's real
+                purpose is to serve as 'boilerplate' application that JavaScript
+                developers can fork and customize to build their own ideas.
+                Learn more about the code and infrastructure powering this
+                wallet at{' '}
                 <a
-                  href='https://t.me/permissionless_software'
+                  href='https://fullstack.cash'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  FullStack.cash
+                </a>{' '}
+                Please solicit feedback on this app in our{' '}
+                <a
+                  href='https://t.me/bch_js_toolkit'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   Telegram Channel
                 </a>
               </p>
+
               <p>
                 The code for this web wallet can be found{' '}
                 <a
@@ -53,9 +64,17 @@ class About extends React.Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  here
+                  on GitHub
                 </a>
                 . It's based on the{' '}
+                <a
+                  href='https://github.com/Permissionless-Software-Foundation/bch-wallet-starter'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  bch-wallet-starter Gatsby Starter
+                </a>
+                , the{' '}
                 <a
                   href='https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet'
                   target='_blank'
@@ -75,12 +94,13 @@ class About extends React.Component {
                 the wallet code for their own use.
               </p>
               <p>
-                This wallet has full support for Bitcoin Cash and SLP tokens,
-                including nonfungible tokens (NFT). When a transaction is made
-                with this wallet, an output of 2000 satoshis is added. This is a
-                convenience fee that goes towards burning PSF tokens. It helps
-                support the developers who work on this web wallet and other
-                software sponsored by the{' '}
+                This wallet has full support for Bitcoin Cash (BCH) and eCash
+                (BCHA) blockchains. That includes SLP tokens, including
+                nonfungible tokens (NFT) on both blockchains. When a transaction
+                is made with this wallet, an output of 2000 satoshis is added.
+                This is a convenience fee that goes towards burning PSF tokens.
+                It helps support the developers who work on this web wallet and
+                other software sponsored by the{' '}
                 <a
                   href='https://psfoundation.cash'
                   target='_blank'
