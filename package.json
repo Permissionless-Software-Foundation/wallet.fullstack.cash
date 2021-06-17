@@ -24,8 +24,8 @@
     "@capacitor/android": "^2.4.6",
     "@capacitor/cli": "^2.4.6",
     "@capacitor/core": "^2.4.6",
-    "gatsby": "^2.31.1",
-    "gatsby-ipfs-web-wallet": "^1.23.2",
+    "gatsby": "^3.7.2",
+    "gatsby-ipfs-web-wallet": "^1.25.2",
     "gatsby-plugin-bch-sweep": "^1.5.4"
   },
   "repository": {
