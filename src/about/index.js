@@ -9,24 +9,24 @@ class About extends React.Component {
   render () {
     return (
       <Content
-        title="About"
-        subTitle=""
-        browserTitle="About | wallet.fullstack.cash"
+        title='About'
+        subTitle=''
+        browserTitle='About | wallet.fullstack.cash'
       >
         <Row>
           <Col xs={12}>
             <Box
-              title="wallet.fullstack.cash"
-              type="primary"
+              title='wallet.fullstack.cash'
+              type='primary'
               closable
               collapsable
             >
               <p>
                 This is the official web wallet provided by{' '}
                 <a
-                  href="https://fullstack.cash"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://fullstack.cash'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   FullStack.cash
                 </a>
@@ -41,17 +41,17 @@ class About extends React.Component {
                 Learn more about the code and infrastructure powering this
                 wallet at{' '}
                 <a
-                  href="https://fullstack.cash"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://fullstack.cash'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   FullStack.cash
                 </a>{' '}
                 Please solicit feedback on this app in our{' '}
                 <a
-                  href="https://t.me/bch_js_toolkit"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://t.me/bch_js_toolkit'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Telegram Channel
                 </a>
@@ -60,33 +60,33 @@ class About extends React.Component {
               <p>
                 The code for this web wallet can be found{' '}
                 <a
-                  href="https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   on GitHub
                 </a>
                 . It's based on the{' '}
                 <a
-                  href="https://github.com/Permissionless-Software-Foundation/bch-wallet-starter"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://github.com/Permissionless-Software-Foundation/bch-wallet-starter'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   bch-wallet-starter Gatsby Starter
                 </a>
                 , the{' '}
                 <a
-                  href="https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://github.com/Permissionless-Software-Foundation/gatsby-ipfs-web-wallet'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   gatsby-ipfs-web-wallet Gatsby Theme
                 </a>
                 , and the{' '}
                 <a
-                  href="https://github.com/Permissionless-Software-Foundation/minimal-slp-wallet"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://github.com/Permissionless-Software-Foundation/minimal-slp-wallet'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   minimal-slp-wallet
                 </a>{' '}
@@ -103,9 +103,9 @@ class About extends React.Component {
                 It helps support the developers who work on this web wallet and
                 other software sponsored by the{' '}
                 <a
-                  href="https://psfoundation.cash"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://psfoundation.cash'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Permissionless Software Foundation
                 </a>
@@ -115,17 +115,17 @@ class About extends React.Component {
               <p>
                 This app can be compiled into a native Android or iOS app using{' '}
                 <a
-                  href="https://react-freelancer.ch/blog/build-mobile-apps-using-gatsby-and-capacitor"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://react-freelancer.ch/blog/build-mobile-apps-using-gatsby-and-capacitor'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Capacitor
                 </a>
                 . The Android APK for this app can be{' '}
                 <a
-                  href="https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href='https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   downloaded from the GitHub repository
                 </a>
