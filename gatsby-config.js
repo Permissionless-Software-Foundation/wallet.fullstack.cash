@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-ipfs-web-wallet',
+    'gatsby-theme-bch-wallet',
     // 'bch-wallet-plugin-postoffice',
     // {
     //   resolve: 'gatsby-plugin-compile-es6-packages',

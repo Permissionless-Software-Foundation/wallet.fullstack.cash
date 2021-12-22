@@ -9,13 +9,13 @@
 import React from 'react'
 import { Sidebar } from 'adminlte-2-react'
 
-import Wallet from 'gatsby-ipfs-web-wallet/src/components/admin-lte/wallet'
-import Tokens from 'gatsby-ipfs-web-wallet/src/components/admin-lte/tokens'
-import Configure from 'gatsby-ipfs-web-wallet/src/components/admin-lte/configure'
-import SendReceive from 'gatsby-ipfs-web-wallet/src/components/admin-lte/send-receive'
+import Wallet from 'gatsby-theme-bch-wallet/src/components/admin-lte/wallet'
+import Tokens from 'gatsby-theme-bch-wallet/src/components/admin-lte/tokens'
+import Configure from 'gatsby-theme-bch-wallet/src/components/admin-lte/configure'
+import SendReceive from 'gatsby-theme-bch-wallet/src/components/admin-lte/send-receive'
 
 import About from '../../about'
-import Sweep from 'gatsby-plugin-bch-sweep'
+/* import Sweep from 'gatsby-plugin-bch-sweep' */
 
 const { Item } = Sidebar
 
@@ -36,15 +36,15 @@ const MenuComponents = props => {
           text='Send/Receive BCH'
         />
       )
-    },
+    }, /*
     {
       key: 'Sweep',
       component: <Sweep key='Sweep' {...props} />,
       menuItem: <Item icon='fas-cog' key='Sweep' text='Sweep' />
-    },
+    }, */
     {
       key: 'Wallet',
-      component: <Wallet key='Wallet' {...props} />,
+      component: <Wallet key='Wallet' interface='rest-api' {...props} />,
       menuItem: <Item icon='fa-wallet' key='Wallet' text='Wallet' />
     },
     {
