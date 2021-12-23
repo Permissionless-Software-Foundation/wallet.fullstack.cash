@@ -23,39 +23,38 @@ const MenuComponents = props => {
   return [
     {
       key: 'Tokens',
-      component: <Tokens key='Tokens' {...props} />,
-      menuItem: <Item icon='fas-coins' key='Tokens' text='Tokens' />
+      component: <Tokens key="Tokens" {...props} />,
+      menuItem: <Item icon="fas-coins" key="Tokens" text="Tokens" />
     },
     {
       key: 'Send/Receive BCH',
-      component: <SendReceive key='Send/Receive BCH' {...props} />,
+      component: <SendReceive key="Send/Receive BCH" {...props} />,
       menuItem: (
         <Item
-          icon='fa-exchange-alt'
-          key='Send/Receive BCH'
-          text='Send/Receive BCH'
+          icon="fa-exchange-alt"
+          key="Send/Receive BCH"
+          text="Send/Receive BCH"
         />
       )
-    }, /*
-    {
-      key: 'Sweep',
+    }, /*    {      key: 'Sweep',
       component: <Sweep key='Sweep' {...props} />,
       menuItem: <Item icon='fas-cog' key='Sweep' text='Sweep' />
     }, */
     {
       key: 'Wallet',
-      component: <Wallet key='Wallet' interface='rest-api' {...props} />,
-      menuItem: <Item icon='fa-wallet' key='Wallet' text='Wallet' />
+      component: <Wallet key="Wallet" interface="rest-api" {...props} />,
+      // component: <Wallet key="Wallet" interface="consumer-api" {...props} />,
+      menuItem: <Item icon="fa-wallet" key="Wallet" text="Wallet" />
     },
     {
       key: 'Configure',
-      component: <Configure key='Configure' {...props} />,
-      menuItem: <Item icon='fas-cog' key='Configure' text='Configure' />
+      component: <Configure key="Configure" {...props} />,
+      menuItem: <Item icon="fas-cog" key="Configure" text="Configure" />
     },
     {
       key: 'About',
-      component: <About key='About' {...props} />,
-      menuItem: <Item icon='fas-cog' key='About' text='About' />
+      component: <About key="About" {...props} />,
+      menuItem: <Item icon="fas-cog" key="About" text="About" />
     }
   ]
 }
