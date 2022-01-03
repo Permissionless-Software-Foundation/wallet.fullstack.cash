@@ -15,7 +15,7 @@ import Configure from 'gatsby-theme-bch-wallet/src/components/admin-lte/configur
 import SendReceive from 'gatsby-theme-bch-wallet/src/components/admin-lte/send-receive'
 
 import About from '../../about'
-/* import Sweep from 'gatsby-plugin-bch-sweep' */
+import Sweep from 'gatsby-plugin-bch-sweep/src/components/sweep/index'
 
 const { Item } = Sidebar
 
@@ -36,10 +36,12 @@ const MenuComponents = props => {
           text='Send/Receive BCH'
         />
       )
-    }, /*    {      key: 'Sweep',
+    },
+    {
+      key: 'Sweep',
       component: <Sweep key='Sweep' {...props} />,
       menuItem: <Item icon='fas-cog' key='Sweep' text='Sweep' />
-    }, */
+    },
     {
       key: 'Wallet',
       component: <Wallet key='Wallet' interface='rest-api' {...props} />,
