@@ -25,6 +25,7 @@
     "@capacitor/cli": "^2.4.6",
     "@capacitor/core": "^2.4.6",
     "gatsby": "^4.4.0",
+    "gatsby-plugin-bch-create-token": "^1.1.1",
     "gatsby-plugin-bch-sweep": "^1.5.5",
     "gatsby-theme-bch-wallet": "^1.1.2"
   },
