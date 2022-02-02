@@ -21,13 +21,13 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "@capacitor/android": "^2.4.6",
-    "@capacitor/cli": "^2.4.6",
-    "@capacitor/core": "^2.4.6",
-    "gatsby": "^4.4.0",
-    "gatsby-plugin-bch-create-token": "^1.1.1",
-    "gatsby-plugin-bch-sweep": "^1.5.5",
-    "gatsby-theme-bch-wallet": "^1.1.2"
+    "@capacitor/android": "2.4.6",
+    "@capacitor/cli": "2.4.6",
+    "@capacitor/core": "2.4.6",
+    "gatsby": "4.4.0",
+    "gatsby-plugin-bch-create-token": "1.1.1",
+    "gatsby-plugin-bch-sweep": "1.5.5",
+    "fullstack-gatsby-theme-bch-wallet": "1.0.0"
   },
   "repository": {
     "type": "git",
@@ -37,16 +37,16 @@
     "url": "https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash/issues"
   },
   "devDependencies": {
-    "capacitor-resources": "^2.0.5",
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-standard": "^5.0.0",
-    "husky": "^4.3.8",
-    "mocha": "^9.1.3",
-    "semantic-release": "^17.4.2",
-    "standard": "^16.0.3"
+    "capacitor-resources": "2.0.5",
+    "eslint": "7.24.0",
+    "eslint-config-prettier": "8.2.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-standard": "5.0.0",
+    "husky": "4.3.8",
+    "mocha": "9.1.3",
+    "semantic-release": "17.4.2",
+    "standard": "16.0.3"
   },
   "release": {
     "publish": [
