@@ -39,7 +39,8 @@ export default function HTML (props) {
         </div>
 
         {/* minimal-slp-wallet-web */}
-        <script src='https://unpkg.com/minimal-slp-wallet@3.6.1' />
+        {/* <script src='https://unpkg.com/minimal-slp-wallet@3.6.1' /> */}
+        <script src='https://unpkg.com/minimal-slp-wallet' />
 
         {/* bch-message-lib */}
         <script src='https://unpkg.com/bch-message-lib' />

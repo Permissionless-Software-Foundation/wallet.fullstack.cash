@@ -9,10 +9,10 @@
 import React from 'react'
 import { Sidebar } from 'adminlte-2-react'
 
-import Wallet from 'gatsby-theme-bch-wallet/src/components/admin-lte/wallet'
-import Tokens from 'gatsby-theme-bch-wallet/src/components/admin-lte/tokens'
-import Configure from 'gatsby-theme-bch-wallet/src/components/admin-lte/configure'
-import SendReceive from 'gatsby-theme-bch-wallet/src/components/admin-lte/send-receive'
+import Wallet from 'fullstack-gatsby-theme-bch-wallet/src/components/admin-lte/wallet'
+import Tokens from 'fullstack-gatsby-theme-bch-wallet/src/components/admin-lte/tokens'
+import Configure from 'fullstack-gatsby-theme-bch-wallet/src/components/admin-lte/configure'
+import SendReceive from 'fullstack-gatsby-theme-bch-wallet/src/components/admin-lte/send-receive'
 
 import About from '../../about'
 import Sweep from 'gatsby-plugin-bch-sweep/src/components/sweep/index'
@@ -52,7 +52,9 @@ const MenuComponents = props => {
     {
       key: 'Create Token',
       component: <CreateToken key='Create Token' {...props} />,
-      menuItem: <Item icon='fas-plus-square' key='Create Token' text='Create Token' />
+      menuItem: (
+        <Item icon='fas-plus-square' key='Create Token' text='Create Token' />
+      )
     },
     {
       key: 'Configure',
